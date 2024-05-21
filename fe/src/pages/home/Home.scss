@@ -1,0 +1,85 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+    position: relative;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+
+    .hero__title{
+        // z-index: 1;
+        color: white;
+        font-size: 72px;
+        font-weight: 400;
+        color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom:3rem;
+
+
+        span{
+            background-color:#ffb606;
+        }
+    }
+    .hero__cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .hero__card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1a1a;
+        //    width: 350px;
+        //     height: 160px;
+        padding: 3rem;
+            margin-right:2rem;
+            .card__texts{
+                .card__title{
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: #FFFFFF;
+                    margin-bottom: 7px;
+                }
+                .link{
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+                
+            }
+            img{
+                height: 62px;
+                width: 62px;
+                margin-right: 1rem;
+            }
+          
+        }
+    }
+}
+.popularCourse{
+    min-height: 100vh;
+    max-width: 100%;
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 470px;
+           width:380 ;
+            background-color: #ffb606;
+            .mini-card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        
+        }
+    }
+}
